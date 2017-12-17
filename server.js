@@ -6,16 +6,19 @@ app.use(express.static('public'));
 
 app.get('/', function(req, res){
     res.render('index', {
+        title: "Platzigram"
     });
 });
 
 app.get('/signup', function(req, res){
     res.render('index', {
+        title: "Platzigram - Signup"
     });
 });
 
 app.get('/signin', function(req, res){
     res.render('index', {
+        title: "Platzigram - Signin"
     });
 });
 
