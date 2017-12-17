@@ -12,6 +12,7 @@
   "description": "",
   "dependencies": {
     "babel": "^6.23.0",
+    "empty-element": "^1.0.0",
     "express": "^4.16.2",
     "materialize-css": "^0.100.2",
     "page": "^1.7.1",
@@ -26,6 +27,7 @@
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.1.0",
     "vinyl-source-stream": "^1.1.0",
-    "watchify": "^3.9.0"
+    "watchify": "^3.9.0",
+    "yo-yo": "^1.4.1"
   }
 }
