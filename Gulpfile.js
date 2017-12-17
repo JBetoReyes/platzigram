@@ -13,6 +13,10 @@ function compile(watch){
         bundle
             .transform(babel)
             .bundle()
+            .on('error', function(err){
+                console.log(err);
+                this.emit('end');
+            })
             .pipe(source('index.js')) //help us to pipe bundle to gulp
             .pipe(rename('app.js'))
             .pipe(gulp.dest('public'));
